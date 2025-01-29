@@ -12,6 +12,7 @@ void display(void)
 	glEnd();
 	glFlush();
 }
+
 void init()
 {
 	glClearColor(0.0,1.0,0.0,0.0);
@@ -20,6 +21,7 @@ void init()
 	glLoadIdentity();
 	glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0);
 }
+
 int main(int argc,char**argv)
 {
 	glutInit(&argc,argv);
