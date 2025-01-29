@@ -21,6 +21,7 @@ glVertex2d(x,y); //plot each incremented point till length
 glEnd();
 glFlush();
 }
+
 void Init()
 {
 glClearColor(1.0,1.0,0.0,0.0); //set window color and alpha value
